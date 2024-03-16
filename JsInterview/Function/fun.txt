@@ -1,0 +1,55 @@
+Function
+ =========
+ A function is a reusable block of code that perform specific task.
+
+ Arrow Function
+ ==============
+ Arrow function is a simpler and shorter way for defining function in js.
+
+Function
+=======================================================================================
+1.  name functions have a name identifier.
+2.  Anonymous function do not have a name identifier and cannot be referenced directly by named.
+
+function expression
+===================
+a function esxpression is way to define a function by assigning is to variable.
+
+callback function
+=================
+A callback function is a function that is passed an argument to another function.
+
+arguments parameters
+====================
+parameters are the placeholder defined in the function declaration.
+arguments are the actual values passsed to a function when it is invoked or called. 
+
+event handling
+==============
+Event handling is the process of responding to user actions in a web page.
+
+default parameters
+===================
+in js default parameters allow you to specify default valuesbfor function parameters.
+
+Event handling is the process of responding to user actions in aweb page.  \
+
+Pure and Impure function
+=========================
+A pure function is a function that always produces that same output for the same input
+pure function can not modify the the state.
+pure function can not have side effect.
+
+Impure function can produce different outputs for the same input .
+Impure function can modify the the state.
+Impure function can have side effect.
+
+function curring
+=================
+Currying in javascript transforma function a function with multiple arguments into a nested series of functioon .each taking single argument.
+
+call apply bind
+=================
+using call method to invoke the function .
+using apply method to invoke the function 
+using the bind method to create a new function.

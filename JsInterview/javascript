@@ -1,0 +1,376 @@
+   overflow-x: scroll; 
+ ===================
+ used for scroll image.
+
+
+filter: grayscale(100%);
+========================
+used for filter image
+
+ grid-template-columns: auto auto auto;
+ ======================================
+used for column left.
+
+grid-gap: 20px;
+===============
+it is used to create gap in image
+
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(car.jpeg);
+=================================================================================
+used for blur image.
+
+JAVASCRIPT
+==========
+Let  :- one time declearation and multiple time initialization.
+var  :- multiple time declearation and multiple time initialization.
+const :-one time declearation and one time initialization.
+
+=  assign value
+==  comparision
+=== comapare data type and value return boolean value true or falase. (number)5==="5"(String) this conditionis false beacose 5 is number and String
+
+break
+======
+break statement stop the process of loop 1 2 3 4 
+continue
+=========
+ terminate iteration 1 2 3 4 6 7 8 9 10
+
+
+
+&&  both condition should be true
+|| any condition true then result is true
+
+! result opposite
+
+loop
+====
+for:-for loop execute n of program in single line
+while loop:- while loop execute program steps in more than one
+do while := do while loop is exit control loop
+nested loop :-a nested loop inside anothe loop statement.
+
+alert():-shos messsage
+confirm():- show a message confirm with ok or cancel it return true or false value
+prompt():-show message input text it return text.
+
+type conversion
+================
+transfer data type to another data type.
+
+String manipulation
+====================
+template literal: - use one variable to another variable.
+let greet=hi `${ str}`;
+
+let= varsha \n rani; (use for next line)
+let= varsha \t rani; (use for tab space)
+ substring= find fetch index value;
+
+ array
+ =====
+ array is collection of similar type of data.
+
+ FUNCTION
+ ========
+ function is a bloc of code.
+ function is a set of statement that performtask or calculate value.
+type
+====
+predefined =is nana nuber strint parseint parsefloat
+userdefined=parameter list statement body section
+
+parameter =calling function
+agrguments=passed by value.
+
+Global variable=Global variable  is declared outside the function.
+Local variable=Local variable is declared inside function in a Program.
+
+Anonymous function
+==================
+an Anonymous function has no identifications when it is created.
+has not function name.
+
+setTimeout
+==========
+set timeout is used to pased function name and time.
+
+immdiate invoked function
+==========================
+immdiate invoked function used to fast execution of program.
+
+Object
+======
+Object is collection of properties.
+
+this
+====
+used for calling function()
+refere object 
+
+Math object
+=========
+math object collection of mathmatical constatnt and function.
+
+ES6
+===
+Rest Parameters
+===============
+it return value in one array.
+for in loop handle.
+denoted by three dots.
+
+spread
+=======
+we can send the value of the arry the  function through spread operator.
+it is convert multilple arguments.(...)
+  
+for of loop 
+===========
+it is used itrate array ,string.
+for of loop return value of index.
+for in loop 
+===========
+for in loop return index number.
+
+template literal
+================
+template literal used to receive dynamic data.
+
+object oriented programming
+===========================
+1-object
+2-clss
+3-inheritence
+
+object
+====== 
+living things or non living things is object.
+exmaple:-varsha,car(collection of features properties that is called object.)
+
+2-class
+=======
+grouping of object that is called class.
+similar properties of group.
+
+3-inheritence
+=============
+it is used to inherit class.
+reuse properties and method.
+
+procedurel object oriented
+==========================
+
+ four piller of oops
+====================
+
+
+1-Encapsulation
+===============
+collect similar data function in one class.
+
+2-abstration
+============
+abstraction is the process of showing only essential/necessary features.
+example tv remote
+.
+3-inheritence
+===========
+inherit multiple class.
+parent
+   |
+a______b
+
+4-polymorphism
+==============
+polymorphis is the process of complete any task using different technique.
+
+static method or property
+=========================
+call using class name. 
+not used to object.
+
+public property and private property
+=====================================
+public property ko direct object se call kar skte hai but private ko nhi. 
+
+Mixing
+======
+Mixing using in function for extra power.
+Map
+===
+Itrate new value 
+means one by on value displate
+Filter
+======
+filter function used to create new array.
+
+callback()
+========
+callback fubnction is a function passed as an argument of another function.
+Arrow
+======
+
+cookie
+======
+lexical scope
+=============
+access the value of  global scope.
+
+local sesion
+=========
+
+json:-- javascript object notation.
+==================================
+json is a text used for storing and transpoting data.
+
+commonly used for aapi and config files.
+
+JSON SYNTAX
+===========
+Data is in  name values pairs
+data is seperated by commas curly braces hold objects
+square brackets hold array.
+
+json is faster in term of data parsing.
+
+send data to server
+===================
+JSON.stringfy()
+spread and rest
+===============
+copy array and object.
+
+JavaScript 
+
+--------------
+
+Java & JavaScript => Diffrent 
+
+HTML & CSS => It is not a Programming Language 
+It is markup language 
+
+JavaScript is a High Level Scripting Language 
+
+JavaScript uses interpreter
+
+1995 
+ECMAScript 
+-> JavaScript 
+
+Front End Programming 
+
+Back End 
+    -> NODE JS PLATFORM 
+
+Software 
+    -> ElectronJS 
+
+Mobile App 
+    -> React Native
+
+FAST EXECUTION 
+
+=================
+Sublime
+VS Code 
+Notepad++
+Bracket 
+Atom 
+===========
+
+Text Editor 
+Code Editor 
+IDE 
+
+---------------
+
+1. JavaScript is a Scripting Language 
+2. JavaScript is a client side scripting language 
+3. JavaScript uses interpreter as a translator 
+4. JavaScript is based on C Programming language.
+5. JavaScript is FAST EXECUTABLE 
+6. JavaScript can perform logical or arithmatical task on web page.
+7. JavaScript is a Programming tool for Web Designers 
+8. JavaScript is built in Browser itself.
+9. JavaScript can perform ASYNC or SYNC task easily.
+10. JavaScript is a Highly Flexible 
+
+----------------------------
+Event 
+
+Event Handling 
+--------------------------
+JavaScript
+    Internal 
+    Inline 
+    External 
+
+DOM
+
+Document Object Model 
+
+DOM -> Traversing 
+Searching/ Indentifying  Object 
+
+DOM -> Manupulation 
+
+https://www.w3schools.com/charsets/ref_utf_arrows.asp
+
+---------------------
+
+
+Event Handling
+--------------
+click 
+change 
+focus 
+blur 
+keyup
+keydown
+keypress
+mouseenter 
+mouseleave
+
+-----------------------
+
+CSS Handling 
+
+-------------
+
+String / Maths / Number 
+
+type conversion 
+
+parseInt()
+parseFloat()
+toString()
+
+Math.min()
+Math.max()
+Math.ceil()
+Math.floor()
+Math.round()
+Math.random()
+Math.abs()
+Math.pow()
+Math.sqrt()
+
+---------------
+length 
+indexOf()
+lastIndexOf()
+charAt()
+charCodeAt()
+fromCharCode()
+toLowerCase()
+toUpperCase()
+substr()
+subString()
+replace()
+search()
+match()
+
+
+
+ 

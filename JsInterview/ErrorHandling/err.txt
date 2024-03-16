@@ -1,0 +1,59 @@
+Scope
+  =====
+  Scope determines where variables are defined and where they can be accessed. 
+  
+  Hoisting
+  ========
+  hoisting is a javascript behaviour where function and variable declearation are moved to the top of their respective scopes during the completion phase.
+  1. function hoisting
+  2. variable hoisting
+
+  Error handling
+  ==============
+  Error handling is the process of managing error.
+  1.ternary
+  2.catch
+
+  synchronous 
+============
+Asynchronous programming allows multiple task or operations to be initiated and executed concurrently.
+used for feching data from API, Downloading files,uploading files,animation and transitions,time taking operations.
+
+Premitive and non Premitive
+===========================
+1. premitive data type can hold only single values.
+numbers,string,boolean,undefined,null
+
+2. nonPremitive data types can hold multiple values.
+object,array,function,date,RegExp.
+
+difference Undefined null
+=========================
+undefined variable is declared but not assigned.
+null variable are intentially assign null value.
+
+type of operator
+================
+typeof operator used to determine the typeof each variable.
+
+type coercion is the automatic conversion of values from one data type to another data during certains operations or comparision.
+
+
+Finally block
+==============================================
+finally block is a keyword .finally block is used to execute some code irrespective of error.
+
+throw
+======
+throw statement the execution of the current function and passes the error to the catch block of calling function
+
+Error Propagation
+==================
+Error propagation refers to the process of passing or propagating an error from one part of code to another by using the throw statement with try catch.
+
+Type of error
+=============
+Syntax Error
+Reference Error
+Type Error
+Range Error

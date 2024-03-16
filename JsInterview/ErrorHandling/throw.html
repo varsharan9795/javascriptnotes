@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function UserData(){
+            try{
+                validateUserAge(25);
+                validateUserAge("invalid");
+                validateUserAge(15);
+            }
+            catch(error){
+console.log("ERROR",error.message);
+            }
+        }
+
+        function validateUserAge(age){
+            if(typeof age !=="number"){
+                throw new Error("Age must be a number");
+
+            }
+            console.log("user age is valid");
+        }
+    </script>
+</body>
+</html>

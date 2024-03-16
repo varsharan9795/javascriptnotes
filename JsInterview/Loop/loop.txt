@@ -1,0 +1,27 @@
+ Loop
+  ====================================================================================
+   loop is a programming to way to run a piece of code repeatedly until a certain condition is met.
+  for,while,do-while,for-of,for-in
+
+  for() :- for loop allows to iterate a block of code a specific number of times.
+
+while() :- while loop execute a block of code while a certain condition is true.
+
+break
+======
+the break statement is used to terminate the loop.
+
+continue
+========
+continue statement is used to skip the current iteration of the loop and move on the next iteration.
+
+for and forof
+=============
+for loop is slightly more complex having more lines of code whereas for..of is much simpler and better for iterating arrays.
+
+for of and for in
+==================
+for-of loop is used to loop through the values of an object likes arrays string.
+for-in loop used to loop through the properties of an object.
+
+forEach():- that allow you to iterate over each element of the array and perform some action on each element.

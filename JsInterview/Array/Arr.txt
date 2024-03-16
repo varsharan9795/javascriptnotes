@@ -1,0 +1,37 @@
+ Array
+ =====
+ Array is  A collection of similar type of data which is used to perform specific task.
+ that is store multiple value in single variable.
+
+ Array
+ ======================================================================
+ indexOf():- method is used to get the index of specified element.
+
+ find():- method get the first element that satisfied a condition.
+
+ filter():- method get an array of elements that satisfied a condition.
+
+ slice():- method get a subset of the array from start index to end index end not included.
+
+ push():adding elements ,push will modify the original array itself.
+
+ concat():- method will create the new array and not modify the original array.
+
+Pop():-will remove the last element of array.
+
+shift():- will remove the first element of the array.
+
+ splice():- The splice method is used to add,remove,or replace element in an array.
+
+map and forEach
+================
+map return new array.
+foreach does not return anything
+
+Sort Reverse
+============
+array can be sorted or reverse by using sort() and reverse().
+
+Array destructuring
+===================
+array destructing allow you to extract element from an arrray and assign them to individual variables in a single statement.

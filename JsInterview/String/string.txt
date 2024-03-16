@@ -1,0 +1,47 @@
+STRING OPERATIONS
+===============================================================================================================
+Length:-  The length property returns the length of a string:
+
+charAt:-The charAt() method returns the character at a specified index (position) in a string:
+
+charCodeAt():- The charCodeAt() method returns the code of the character at a specified index in a string:
+
+at():-ES2022 introduced the string method at():
+
+slice() :-extracts a part of a string and returns the extracted part in a new string.
+
+The substring():-  method extract a part of a string and returns the extracted parts in a new string
+
+A string is converted to upper case with toUpperCase():
+
+A string is converted to lower case with toLowerCase():
+
+concat() :- joins two or more strings:
+
+The trim() :-method removes whitespace from both sides of a string:
+
+The trimStart():- method works like trim(), but removes whitespace only from the start of a string.
+
+The trimEnd() method works like trim(), but removes whitespace only from the end of a string.
+
+The repeat() method returns a new string.
+
+The replace() method replaces a specified value with another value in a string:
+
+split() :- A string can be converted to an array with the split() method:
+
+String
+===================================================================================================
+string:-a string is a datatype used to store and manipulate data.
+
+template literal and string interpolation 
+==========================================
+template literal used to receive dynamicdata.
+
+difference (' ') ,(""),(``)
+============================
+(``)Template Literal for multiline strings.
+
+String immutable
+=================
+string in javascript are considered immutable beacause you can not modify the contents of an existing string directly.

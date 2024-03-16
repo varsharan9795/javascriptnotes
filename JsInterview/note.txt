@@ -1,0 +1,477 @@
+JAVASCRIPT
+===============================================================================================================
+javascript is a programming language that is used for converting static webpage to interactive and dynamic page.
+
+CLIENT Side & SERVER Side
+==========================
+A client is a device application or software component that request and coonsume services or resources from a server
+A server side is a device ,computer, or software application that provides services,resources or function to client.
+
+VARIABLES
+==========
+variable are used to store data.
+
+Let  :- one time declearation and multiple time initialization.
+var  :- multiple time declearation and multiple time initialization.
+const :-one time declearation and one time initialization.
+
+STRING OPERATIONS
+===============================================================================================================
+Length:-  The length property returns the length of a string:
+
+charAt:-The charAt() method returns the character at a specified index (position) in a string:
+
+charCodeAt():- The charCodeAt() method returns the code of the character at a specified index in a string:
+
+at():-ES2022 introduced the string method at():
+
+slice() :-extracts a part of a string and returns the extracted part in a new string.
+
+The substring():-  method extract a part of a string and returns the extracted parts in a new string
+
+A string is converted to upper case with toUpperCase():
+
+A string is converted to lower case with toLowerCase():
+
+concat() :- joins two or more strings:
+
+The trim() :-method removes whitespace from both sides of a string:
+
+The trimStart():- method works like trim(), but removes whitespace only from the start of a string.
+
+The trimEnd() method works like trim(), but removes whitespace only from the end of a string.
+
+The repeat() method returns a new string.
+
+The replace() method replaces a specified value with another value in a string:
+
+split() :- A string can be converted to an array with the split() method:
+
+DOM and HTML
+============
+DOM(Document Object Module) represent the web pages as a like a tree structure that allow javascript to dynamically access and manipulate the content
+and structure of a web pages .
+
+Selectors in javascript
+=======================
+selectors in JS help to get specific elements from DOM based on IDs ,classname,tag names.
+
+DATA TYPE
+=========
+PRIMITIVE)    :-numbers,strings,booleans,undefined,null
+NON-PRIMITIVE):-Object,array,Function,date 
+
+Types of JavaScript Operators
+==============================
+Arithmetic Operators
+Assignment Operators
+Comparison Operators
+String Operators
+Logical Operators
+Bitwise Operators
+Ternary Operators
+Type Operators
+
+)Arithmetic Operators
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Division Remainder)
+++	Increment
+--	Decrement
+
+)Assignment Operators
+=	x = y	x = y
++=	x += y	x = x + y
+-=	x -= y	x = x - y
+*=	x *= y	x = x * y
+/=	x /= y	x = x / y
+%=	x %= y	x = x % y
+**=	x **= y	x = x ** y
+
+)Comparison Operators
+==	equal to
+===	equal value and equal type
+!=	not equal
+!==	not equal value or not equal type
+>	greater than
+<	less than
+>=	greater than or equal to
+<=	less than or equal to
+?	ternary operator
+
+)Logical Operators
+&&	logical and
+||	logical or
+!	logical not
+
+condition statement
+===================
+if/else
+ternary operator
+switch statement
+  
+  Loop
+  ====================================================================================
+   loop is a programming to way to run a piece of code repeatedly until a certain condition is met.
+  for,while,do-while,for-of,for-in
+ 
+ Function
+ =========
+ A function is a reusable block of code that perform specific task.
+
+ Arrow Function
+ ==============
+ Arrow function is a simpler and shorter way for defining function in js.
+
+ Array
+ =====
+ Array is  A collection of similar type of data which is used to perform specific task.
+ that is store multiple value in single variable.
+
+ Object
+ =======
+  collection of properties.living or non-living things.
+
+  Scope
+  =====
+  Scope determines where variables are defined and where they can be accessed. 
+  
+  Hoisting
+  ========
+  hoisting is a javascript behaviour where function and variable declearation are moved to the top of their respective scopes during the completion phase.
+  1. function hoisting
+  2. variable hoisting
+
+  Error handling
+  ==============
+  Error handling is the process of managing error.
+  1.ternary
+  2.catch
+
+Asynchronous 
+============
+Asynchronous programming allows multiple task or operations to be initiated and executed concurrently.
+used for feching data from API, Downloading files,uploading files,animation and transitions,time taking operations.
+
+Premitive and non Premitive
+===========================
+1. premitive data type can hold only single values.
+numbers,string,boolean,undefined,null
+
+2. nonPremitive data types can hold multiple values.
+object,array,function,date,RegExp.
+
+difference Undefined null
+=========================
+undefined variable is declared but not assigned.
+null variable are intentially assign null value.
+
+type of operator
+================
+typeof operator used to determine the typeof each variable.
+
+type coercion is the automatic conversion of values from one data type to another data during certains operations or comparision.
+
+OPERATOR
+========
+1. unary
+2.binary
+3.ternary
+
+short circuit 
+=============
+short circuit evaluation stops the execution as soon the result can be determined without evaluating the remaining sub-expression.
+
+operator precedence
+====================
+As per operator precedence,operators with higher precedence are evaluated first.
+
+ difference between == and ===
+ ==============================
+ ==(loose equality) operator compare two values for equality after performing type coercion.
+ ===(strict equality) operator compare two values for equality without performing.
+
+
+ spread operator
+ ===============
+ spread operator(...) is used to expand or spread from an itrable such as(array string or object) into individual elements.
+ 1. copying array
+ 2. merging array
+ 3. passing multiple arguments to a function.
+
+ Rest Operators
+ ==============
+ The rest operator is used in function parameters to collect all remaining arguments into an array.
+
+ Array
+ ======================================================================
+ indexOf():- method is used to get the index of specified element.
+
+ find():- method get the first element that satisfied a condition.
+
+ filter():- method get an array of elements that satisfied a condition.
+
+ slice():- method get a subset of the array from start index to end index end not included.
+
+ push():adding elements ,push will modify the original array itself.
+
+ concat():- method will create the new array and not modify the original array.
+
+Pop():-will remove the last element of array.
+
+shift():- will remove the first element of the array.
+
+ splice():- The splice method is used to add,remove,or replace element in an array.
+
+map and forEach
+================
+map return new array.
+foreach does not return anything
+
+Sort Reverse
+============
+array can be sorted or reverse by using sort() and reverse().
+
+Array destructuring
+===================
+array destructing allow you to extract element from an arrray and assign them to individual variables in a single statement.
+
+Loop
+===============================================================================
+for() :- for loop allows to iterate a block of code a specific number of times.
+
+while() :- while loop execute a block of code while a certain condition is true.
+
+break
+======
+the break statement is used to terminate the loop.
+
+continue
+========
+continue statement is used to skip the current iteration of the loop and move on the next iteration.
+
+for and forof
+=============
+for loop is slightly more complex having more lines of code whereas for..of is much simpler and better for iterating arrays.
+
+for of and for in
+==================
+for-of loop is used to loop through the values of an object likes arrays string.
+for-in loop used to loop through the properties of an object.
+
+forEach():- that allow you to iterate over each element of the array and perform some action on each element.
+
+Function
+=======================================================================================
+1.  name functions have a name identifier.
+2.  Anonymous function do not have a name identifier and cannot be referenced directly by named.
+
+function expression
+===================
+a function esxpression is way to define a function by assigning is to variable.
+
+callback function
+=================
+A callback function is a function that is passed an argument to another function.
+
+arguments parameters
+====================
+parameters are the placeholder defined in the function declaration.
+arguments are the actual values passsed to a function when it is invoked or called. 
+
+event handling
+==============
+Event handling is the process of responding to user actions in a web page.
+
+default parameters
+===================
+in js default parameters allow you to specify default valuesbfor function parameters.
+
+Event handling is the process of responding to user actions in aweb page.  \
+
+Pure and Impure function
+=========================
+A pure function is a function that always produces that same output for the same input
+pure function can not modify the the state.
+pure function can not have side effect.
+
+Impure function can produce different outputs for the same input .
+Impure function can modify the the state.
+Impure function can have side effect.
+
+
+function curring
+=================
+Currying in javascript transforma function a function with multiple arguments into a nested series of functioon .each taking single argument.
+
+call apply bind
+=================
+using call method to invoke the function .
+using apply method to invoke the function 
+using the bind method to create a new function.
+
+
+String
+===================================================================================================
+string:-a string is a datatype used to store and manipulate data.
+
+template literal and string interpolation 
+==========================================
+template literal used to receive dynamicdata.
+
+difference (' ') ,(""),(``)
+============================
+(``)Template Literal for multiline strings.
+
+String immutable
+=================
+string in javascript are considered immutable beacause you can not modify the contents of an existing string directly.
+
+selecting DOM element
+=======================
+getElementById()
+querySelector()
+querySelectorAll()
+getElementByClassName()
+getElementByTagName()
+getElementByName()
+
+Modifying element properties and attribute
+===========================================
+textContent
+innerHTML
+setAttribute(name)
+RemoveAttribute(name)
+style.property
+
+Creating & appending element
+=============================
+createElement()
+appendChild()
+cloneNode()
+
+removing elements
+=================
+remove()
+removeChild()
+
+Adding and removing elements
+=============================
+addEventListener(type listener)
+removeEventListener(type listener)
+
+innnerHTML and TesxtContent
+============================
+innerHTML property ,the browseer interprets the content.
+TextContent is used to assign plain text.
+
+Add and RemoveAttribute
+==========================
+setAttribute method  used to add property.
+RemoveAttribute method is used to to remove property 
+createElement() create new element
+cloneNode()  copy the existing element with all attribute
+
+Finally block
+==============================================
+finally block is a keyword .finally block is used to execute some code irrespective of error.
+
+throw
+======
+throw statement the execution of the current function and passes the error to the catch block of calling function
+
+Error Propagation
+==================
+Error propagation refers to the process of passing or propagating an error from one part of code to another by using the throw statement with try catch.
+
+Type of error
+=============
+Syntax Error
+Reference Error
+Type Error
+Range Error
+
+Ways to create and initialize an object
+========================================================================================
+object literal
+object constructor
+object.create()method
+
+Array and object
+================
+array are collection of values
+object is a collection of key value-pair.
+
+dot notation and bracket notation
+=================================
+both notation are used to access properties or method of an object.
+
+iterate
+=================
+1. for in loop
+2. object key() forEach() 
+3. object value() forEach() 
+
+Clone or copy object
+====================
+1. spread Syntax
+2. Object assign 
+3. JSON>parse()& JSON stringify(originalObject);
+
+
+deep copy shallow copy
+=======================
+shallow copy in nested object case will modify the parent object property value, if cloned object property value is changed .But deep copy will not modify the parent object propert value.
+ 
+ set object
+ ============
+ set object is the collection of unique values meaning that duplicate values meaning that duplicates values are not alllowed.
+ Set Provides methods for adding ,deleting, and checking the existence of values in the set.
+ Set can be used to remove duplicate values from arrays.
+
+map
+=====
+ map object is a collection of key values pairs where each key can be of any type and each value can also be of any type.
+ A map mamintain order of of key-value pairs as they were instead.
+
+
+ map and object
+ ===============
+keys in  a map can be of data type including strings number object function etc.
+key in regular javascript object are limited to strings and symbols.
+
+event type
+=============
+click,mouseover,keydown,keypress,keyup,submit,focus, blur, change,load,resize.
+
+event object
+============
+event object passes it as an argument to the event handler.
+
+event Delegation
+=================
+event delegation in javascript is a javascript is a technique where you attach a single event handler to a parent element to handle events on its child elements
+
+event bubbling
+================
+event bubbling is the process in javascript where in event triggerd on  a child element propagate up the DOM tree. triggered event handles on its parent elements.
+
+event capturing
+===============
+event capturing is the process in javascript where an event is handled starting from the highest-level ancestor and moving down to the target element.
+
+event.preventDefault()
+========================
+the event.preventDefault() method is used to to prevent the default behaviour of an object and the link click will be prevented.
+
+this()
+======
+this keyword refers to the element  that the event handler is attached to.
+
+remove an event handler
+=======================
+ remove Eventlistner() method is used to remove event handlers from element.
+ 

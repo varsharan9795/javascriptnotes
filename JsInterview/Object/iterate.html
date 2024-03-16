@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const person={
+            name:"varsha",
+            age:"20"
+        }
+        for(let prop in person){
+            console.log(prop+":"+person[prop]);
+
+        }
+        object.key(person).forEach((prop)=>{
+            console.log(prop +":"+person[prop]);
+        })
+
+        object.value(person).forEach((value)=>{
+console.log(value);
+        });
+    </script>
+</body>
+</html>

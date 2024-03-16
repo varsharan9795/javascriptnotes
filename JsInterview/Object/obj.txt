@@ -1,0 +1,63 @@
+ Object
+ =======
+  collection of properties.living or non-living things.
+
+  Type of error
+=============
+Syntax Error
+Reference Error
+Type Error
+Range Error
+
+Ways to create and initialize an object
+========================================================================================
+object literal
+object constructor
+object.create()method
+
+Array and object
+================
+array are collection of values
+object is a collection of key value-pair.
+
+dot notation and bracket notation
+=================================
+both notation are used to access properties or method of an object.
+
+iterate
+=================
+1. for in loop
+2. object key() forEach() 
+3. object value() forEach() 
+
+Clone or copy object
+====================
+1. spread Syntax
+2. Object assign 
+3. JSON>parse()& JSON stringify(originalObject);
+
+
+deep copy shallow copy
+=======================
+shallow copy in nested object case will modify the parent object property value, if cloned object property value is changed .But deep copy will not modify the parent object propert value.
+ 
+ set object
+ ============
+ set object is the collection of unique values meaning that duplicate values meaning that duplicates values are not alllowed.
+ Set Provides methods for adding ,deleting, and checking the existence of values in the set.
+ Set can be used to remove duplicate values from arrays.
+
+map
+=====
+ map object is a collection of key values pairs where each key can be of any type and each value can also be of any type.
+ A map mamintain order of of key-value pairs as they were instead.
+
+
+ map and object
+ ===============
+keys in  a map can be of data type including strings number object function etc.
+key in regular javascript object are limited to strings and symbols.
+
+event
+===============================================================================
+event are that actions that happen in the browser such as a button click mouse movement or kkeyboard input.

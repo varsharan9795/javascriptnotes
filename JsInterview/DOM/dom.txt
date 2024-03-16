@@ -1,0 +1,53 @@
+DOM and HTML
+============
+DOM(Document Object Module) represent the web pages as a like a tree structure that allow javascript to dynamically access and manipulate the content
+and structure of a web pages .
+
+Selectors in javascript
+=======================
+selectors in JS help to get specific elements from DOM based on IDs ,classname,tag names.
+
+selecting DOM element
+=======================
+getElementById()
+querySelector()
+querySelectorAll()
+getElementByClassName()
+getElementByTagName()
+getElementByName()
+
+Modifying element properties and attribute
+===========================================
+textContent
+innerHTML
+setAttribute(name)
+RemoveAttribute(name)
+style.property
+
+Creating & appending element
+=============================
+createElement()
+appendChild()
+cloneNode()
+
+removing elements
+=================
+remove()
+removeChild()
+
+Adding and removing elements
+=============================
+addEventListener(type listener)
+removeEventListener(type listener)
+
+innnerHTML and TesxtContent
+============================
+innerHTML property ,the browseer interprets the content.
+TextContent is used to assign plain text.
+
+Add and RemoveAttribute
+==========================
+setAttribute method  used to add property.
+RemoveAttribute method is used to to remove property 
+createElement() create new element
+cloneNode()  copy the existing element with all attribute

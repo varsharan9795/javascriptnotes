@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="outer">
+        <div id="inner">
+            <button id="myButton">Click Me</button>
+        </div>
+    </div>
+    <script>
+var outer=document.getElementById("outer");
+var inner=document.getElementById("inner");
+var button=document.getElementById("myButton");
+
+outer.addEventListener("click",handleBubbling);
+inner.addEventListener("click",handleBubbling);
+button.addEventListener("click",handleBubbling);
+
+function handleBubbling(event)
+{
+    console.log("bubbling: " +this.id);
+}    </script>
+</body>
+</html>
